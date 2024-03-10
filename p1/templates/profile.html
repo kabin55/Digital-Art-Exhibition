@@ -1,0 +1,44 @@
+{% extends "base.html"%}
+{%block content %}
+
+<link rel="stylesheet" href="/static/profile.css">
+<section id="account-description">
+    <div class="profile">
+        <img src="/static/images/avatar.jpg" alt="Profile Icon">
+        <h2>Account Description</h2>
+        <!-- Display other account information here -->
+    </div>
+
+
+        </section>
+
+        <section id="my-blogs">
+            <!-- Display your blogs here -->
+        </section>
+
+        <section id="upload-art">
+            <!-- Form to upload art with name and description -->
+            <h2>Upload Art</h2>
+            <form action="upload.php" method="POST" enctype="multipart/form-data">
+                <label for="art-name">Art Name:</label>
+                <input type="text" id="art-name" name="art-name" required><br>
+
+                <label for="art-description">Art Description:</label>
+                <textarea id="art-description" name="art-description" required></textarea><br>
+
+                <label for="art-file">Art File:</label>
+                <input type="file" id="art-file" name="art-file" accept="image/*" required><br>
+
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+
+    <!-- Add your JavaScript link here -->
+    <script src="/static/profile.js"></script>
+
+{%endblock%}

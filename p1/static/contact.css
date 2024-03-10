@@ -1,0 +1,188 @@
+/* Contact Form Styles */
+
+
+/* 
+.contact {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    width: 100%;
+    background-image: url("images/1.jpg");
+}
+
+#contact-form .center {
+    text-align: center;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#contact-form textarea {
+    height: 150px;
+}
+
+#contact-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button[type="submit"]:hover {
+    background-color: #0056b3;
+} */
+
+.contact {
+    background-image: url(/images/1.jpg);
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact h2 {
+    color: #333;
+}
+
+.contact p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+/* Style for the form */
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: left;
+}
+
+
+/* Style for form labels */
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+
+/* Style for form inputs */
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+/* Style for submit button */
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* Style for the form */
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.center {
+    text-align: left;
+}
+
+
+/* Style for form labels */
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+
+/* Style for form inputs */
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+/* Style for submit button */
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,164 @@
+ {% extends "base.html"%}
+ {%block content %}
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Digital Art Exhibition</title>
+    <!-- Link your CSS file here -->
+    <link rel="stylesheet" href="/static/home.css">
+
+
+
+    <!-- Full-screen slider with text overlay -->
+    <section class="slider">
+        <div class="slide">
+            <img src="/static/images/3.jpg" alt="Example Image">
+            <!-- Optionally, you can add text overlay -->
+            <div class="text-overlay">
+                <h2>Welcome to Digital Arrt exhibition</h2>
+                <p>The AccessArt theme prioritizes accessibility and inclusivity in digital art, ensuring it's enjoyable for everyone, including those with disabilities</p>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2><u>Gallery</u></h2>
+        <div class="gallery-images">
+            <div class="image">
+                <img src="/static/images/2.jpg" alt="Image 1">
+                <div class="image-details">
+                    <h3>Name of Image 1</h3>
+                    <p>Description of Image 1</p>
+                    <button>More</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="/static/images/1.jpg" alt="Image 2">
+                <div class="image-details">
+                    <h3>Name of Image 2</h3>
+                    <p>Description of Image 2</p>
+                    <button>More</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="/static/images/3.jpg" alt="Image 3">
+                <div class="image-details">
+                    <h3>Name of Image 3</h3>
+                    <p>Description of Image 3</p>
+                    <button>More</button>
+                </div>
+            </div>
+
+            <div class="image">
+                <img src="/static/images/1.jpg" alt="Image 1">
+                <div class="image-details">
+                    <h3>Name of Image 1</h3>
+                    <p>Description of Image 1</p>
+                    <button>More</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="/static/images/2.jpg" alt="Image 2">
+                <div class="image-details">
+                    <h3>Name of Image 2</h3>
+                    <p>Description of Image 2</p>
+                    <button>More</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="/static/images/3.jpg" alt="Image 3">
+                <div class="image-details">
+                    <h3>Name of Image 3</h3>
+                    <p>Description of Image 3</p>
+                    <button>More</button>
+                </div>
+            </div>
+            <!-- Add more images as needed -->
+    </section>
+
+    <section id="blog" class="blog">
+        <h2><u>Blog</u></h2>
+        <div class="container">
+
+            <div class="blog-posts">
+                <div class="blog-post">
+                    <h3> Post Title 1</h3>
+                    <p class="post-meta">Posted on January 1, 2024 by Admin</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nulla ac nisi tristique faucibus. Nullam eget dictum risus.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="blog-post">
+                    <h3> Post Title 2</h3>
+                    <p class="post-meta">Posted on January 2, 2024 by Admin</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nulla ac nisi tristique faucibus. Nullam eget dictum risus.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+
+                <div class="blog-post">
+                    <h3> Post Title 1</h3>
+                    <p class="post-meta">Posted on January 1, 2024 by Admin</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nulla ac nisi tristique faucibus. Nullam eget dictum risus.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="blog-post">
+                    <h3> Post Title 2</h3>
+                    <p class="post-meta">Posted on January 2, 2024 by Admin</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nulla ac nisi tristique faucibus. Nullam eget dictum risus.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+
+                <!-- Add more blog posts as needed -->
+            </div>
+            <button class="read-more-btn">Read More</button>
+        </div>
+    </section>
+
+
+    <section class="services">
+        <h2>Our services</h2>
+        <div class="service-container" id=" " services>
+            <!-- Service 1 -->
+
+            <div class="service-box">
+                <i class="fas fa-hand-pointer fa-3x"></i>
+                <h2 class="service-title">Interactive Installations</h2>
+                <p class="service-description">Engage with interactive installations that allow you to become part of the art, creating unique and personalized experiences.</p>
+            </div>
+
+
+
+            <!-- Service 2 -->
+            <div class="service-box">
+                <i class="fas fa-paint-brush fa-3x"></i>
+                <h2 class="service-title">Artistic Creations</h2>
+                <p class="service-description">Explore a diverse collection of digital artworks crafted by talented artists from around the world.</p>
+            </div>
+
+
+            <!-- Service 3 -->
+            <div class="service-box">
+                <i class="fas fa-desktop fa-3x"></i>
+                <h2 class="service-title">Interactive Exhibits</h2>
+                <p class="service-description">Engage with interactive digital exhibits that blur the lines between art and technology, offering immersive experiences.</p>
+            </div>
+
+
+            <!-- Service 4 -->
+            <div class="service-box">
+                <i class="fas fa-chalkboard-teacher fa-3x"></i>
+                <h2 class="service-title">Educational Workshops</h2>
+                <p class="service-description">Participate in educational workshops conducted by experienced artists and learn about digital art techniques and trends.</p>
+            </div>
+
+        </div>
+    </section>
+    {%include "contact.html"%}
+
+
+
+    <!-- Link your JavaScript file here -->
+    {% comment %} <script src="1.js"></script> {% endcomment %}
+{%endblock%}

@@ -1,0 +1,83 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+
+/* Profile section */
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+/* My Blogs section */
+
+#my-blogs {
+    margin-bottom: 30px;
+}
+
+
+/* Upload Art section */
+
+#upload-art {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#upload-art h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#upload-art label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#upload-art input[type="text"],
+#upload-art textarea,
+#upload-art input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+#upload-art button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#upload-art button:hover {
+    background-color: #555;
+}
